@@ -15,9 +15,9 @@ Authors@R: c(person("Jakson", "Aquino",
 Description: Automatically sets the value of options("width") when the
    terminal emulator is resized. Inspired by and based on the original 'setwidth'
    package by Jakson Alves de Aquino and Dominique-Laurent Couturier, but 
-   extended for cross-platform support
-   (Linux, macOS, Windows) in interactive R sessions. You need to have the 
-   'later' package installed (used for event handling and timer fallback).
+   extended for cross-platform support (Linux, macOS, Windows) in interactive 
+   R sessions. You need to have the 'later' package installed (used for event 
+   handling and timer fallback).
 License: GPL (>= 2)
 Suggests: later
 NeedsCompilation: yes
