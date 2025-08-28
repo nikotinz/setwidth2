@@ -3,7 +3,6 @@
 \docType{package}
 \name{setwidth2-package}
 \alias{setwidth2-package}
-\alias{setwidth-package}
 \alias{setwidth2}
 \title{Automatically set the value of options("width") when the terminal
   emulator is resized}

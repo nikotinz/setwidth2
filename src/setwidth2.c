@@ -179,9 +179,9 @@ void setwidth2_Stop(void)
     if (!setwidth2_initialized) return;
 
 #ifndef _WIN32
-    if (p_removePolledEventHandler && setwidth2_poll_handle) {
-        p_removePolledEventHandler(setwidth2_poll_handle);
-        setwidth2_poll_handle = NULL;
+    if (p_removePolledEventHandler && setwidth_poll_handle) {
+        p_removePolledEventHandler(setwidth_poll_handle);
+        setwidth_poll_handle = NULL;
     }
 #endif
     setwidth2_initialized = 0;

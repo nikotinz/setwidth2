@@ -53,7 +53,13 @@
   if (ns_name %in% loadedNamespaces()) {
     ns <- asNamespace(ns_name)
     if (exists(".setwidth2_timer_active", envir = ns, inherits = FALSE)) {
-      assign(".setwidth2_timer_active", FALSE, envir = ns)
+      # Check if the binding is locked before trying to assign
+      tryCatch({
+        assign(".setwidth2_timer_active", FALSE, envir = ns)
+      }, error = function(e) {
+        # Binding is locked, which is expected during namespace unloading
+        # No action needed - the namespace is being removed anyway
+      })
     }
   }
   id <- getOption("setwidth2.task.id", NULL)

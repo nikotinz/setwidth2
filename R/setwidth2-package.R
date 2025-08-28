@@ -1,7 +1,7 @@
 #' @title Automatically set the value of options("width") when the terminal
 #'   emulator is resized
 #' @name setwidth2-package
-#' @aliases setwidth-package setwidth2
+#' @aliases setwidth2
 #' @docType package
 #' @description
 #' Inspired by and based on the original 'setwidth' package by Jakson Alves de
@@ -55,5 +55,4 @@
 #' options(setwidth2.verbose = 1)
 #' print(getOption("width"))
 #' @useDynLib setwidth2, .registration = TRUE
-#' @exportPattern ^
 "_PACKAGE"
