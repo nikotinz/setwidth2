@@ -1,0 +1,23 @@
+Package: setwidth2
+Version: 0.9.0.0001
+Title: Automatically Set the Width Option on Terminal Emulators (Cross-Platform, based on setwidth)
+Authors@R: c(person("Jakson", "Aquino",
+                     role = "aut", 
+                     comment = c(ORCID = "0000-0003-2522-8573")),
+            person("Dominique-Laurent", "Couturier",
+                     role = c("aut"),
+                     email = "dlc48@cam.ac.uk",
+                     comment = c(ORCID = "0000-0001-5774-5036")),
+            person("Nikita", "Mozgunov",
+                     role = c("aut", "cre"),
+                     email = "mozgunov.n@gmail.com",
+                     comment = c(ORCID = "0000-0003-0941-718X")))
+Description: Automatically sets the value of options("width") when the
+   terminal emulator is resized. This package is cross-platform and works on Linux, macOS, and Windows systems when running R interactively in a terminal emulator. It is a successor to the 'setwidth' package.
+License: GPL (>= 2)
+Suggests: later
+NeedsCompilation: yes
+URL: https://github.com/nikotinz/setwidth2
+BugReports: https://github.com/nikotinz/setwidth2/issues
+Encoding: UTF-8
+RoxygenNote: 7.3.2

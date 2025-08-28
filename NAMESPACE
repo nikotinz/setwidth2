@@ -1,0 +1,2 @@
+useDynLib(setwidth2, .registration = TRUE)
+exportPattern("^")
