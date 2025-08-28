@@ -1,1 +1,26 @@
+# R build artifacts
+*.tar.gz
+*.Rcheck/
+..Rcheck/
+
+# Compiled object files
+*.o
+*.so
+*.dll
+
+# R data files
+*.RData
+*.rda
+
+# R history files
+.Rhistory
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+
+# Temporary files
+*~
+.DS_Store
+Thumbs.db
 setwidth2.Rcheck
