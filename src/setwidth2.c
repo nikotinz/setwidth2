@@ -1,4 +1,3 @@
-// src/setwidth.c
 #include <R.h>
 #include <Rinternals.h>
 
