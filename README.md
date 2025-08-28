@@ -1,4 +1,4 @@
-# setwidth2 R package  <a href="https://github.com/nikotinz/setwidth2"><img src="setwidth2.png" alt="" align="right" height="138" width="125" /></a>
+# setwidth2 R package  <a href="https://github.com/nikotinz/setwidth2"><img src="setwidth2.png" alt="" align="right" height="145" width="132" /></a>
 
 
 Automatically set the value of `options("width")` when the terminal emulator is resized. This package is cross-platform and works on Linux, macOS, and Windows systems when running R interactively in a terminal emulator. It is a successor to the 'setwidth' package.
