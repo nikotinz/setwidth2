@@ -4,6 +4,10 @@
 #' @aliases setwidth-package setwidth2
 #' @docType package
 #' @description
+#' Inspired by and based on the original 'setwidth' package by Jakson Alves de
+#' Aquino, but extended for cross-platform support (Linux, macOS, Windows).
+#' For best experience, it is recommended to have the 'later' package installed
+#' (used for event handling and timer fallback).
 #' This package should not be used with Graphical User Interfaces, such as
 #' Windows RGui, RStudio, RKward, JGR, Rcmdr and other interfaces which have
 #' their own engine to display R output. The functions of this package only
