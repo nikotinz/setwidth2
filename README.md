@@ -1,4 +1,5 @@
-# setwidth2 R package <img src="setwidth2.png" alt="setwidth2 logo" width="120"/>
+# setwidth2 R package  <a href="https://github.com/nikotinz/setwidth2"><img src="setwidth2.png" alt="" align="right" height="145" width="132" /></a>
+
 
 *Inspired by and based on the original [setwidth](https://cran.r-project.org/web/packages/setwidth/index.html) package by Jakson Alves de Aquino, but extended for cross-platform support (Linux, macOS, Windows).*
 
